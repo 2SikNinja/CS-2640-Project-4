@@ -23,7 +23,11 @@ main:
 
 
 
-
+# node-address getnode(cstring s, address list) 
+#   allocate node (malloc) 
+#   node.data = s 
+#   node.next = list 
+#   return node 
 getNode:
 
 
@@ -93,9 +97,6 @@ while1:
 endWhile1:
 	move	$v0, $t0	# $v0 = length , returns it
 	jr	$ra
-
-
-
 
 strdup:
 			# $a0 = &cs[]
