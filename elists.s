@@ -1,10 +1,10 @@
-#  Name:   Nguyen, Peter
-#  Project:  #4
-#  Due:        12/01/2022 
-#  Course:  cs-2640-04-f22 
-# 
-#  Description: 
-#    Creates a linked list as well as a file and uses it to store information and traverses it.
+#
+#	Name:	Nguyen, Justin
+#	Project:	4
+#	Due:	12/1/2022
+#
+#	Description:
+#		Uses linked list to store elements from a file. Then print all elements of linked list.
 	.data
 head:	.word	0:2
 input:	.space	42
@@ -124,3 +124,7 @@ endDoWhile1:
 	addiu	$sp, $sp, 4
 
 	jr	$ra
+
+
+
+	
